@@ -24,11 +24,11 @@ const Intro = (props: Props) => {
           </div>
         </div>
       </div>
-      <p onClick={() => navigate('/works')} className="fixed cursor-pointer bg-innerBackground-md bg-clip-text bg-cover text-transparent text-xl font-sans font-bold top-[calc(50%-0.5rem)] -left-6 tracking-widest rotate-90">
+      <p onClick={() => navigate('/works')} className="fixed cursor-pointer bg-innerBackground-md bg-clip-text bg-cover text-transparent text-xl font-sans font-bold top-[calc(50%-0.5rem)] -left-6 tracking-widest rotate-90 hover:scale-125">
         MyWorks
       </p>
       <div className="fixed font-sans font-bold text-xl tracking-widest w-full bottom-1 flex justify-around bg-transparent">
-        <p onClick={() => navigate('/myskills')} className="text-dark cursor-pointer">MySkills</p>
+        <p onClick={() => navigate('/myskills')} className="text-dark cursor-pointer hover:scale-125">MySkills</p>
       </div>
     </ div>
   );

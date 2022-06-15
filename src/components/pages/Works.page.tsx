@@ -50,7 +50,7 @@ const Works = (props: Props) => {
             clickable: true,
           }}
           modules={[Mousewheel, Autoplay, EffectCube, Pagination]}
-          className="mySwiper w-[400px] h-[400px] xl:w-[500px] xl:h-[500px]"
+          className="mySwiper w-[400px] h-[400px] lg:w-[500px] lg:h-[500px]"
         >
           {workData.map(work =>
             <SwiperSlide>
